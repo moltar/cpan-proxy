@@ -4,6 +4,8 @@ This script runs an HTTP proxy that is designed to work with CPAN modules. It
 will intercept any requests to download a tar.gz module package and save it
 locally in cache. Later on, it will be accessible by `cpanm` and other tools.
 
+This daemon uses only about 5MB of memory.
+
 ## INSTALLATION
 
 To get started, first of all, install all of the dependencies for this script:
